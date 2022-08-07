@@ -51,7 +51,7 @@ const getCurrentQuestion = computed(() => {
 
 const SetAnswer = (evt) => {
   questions.value[currentQuestion.value].selected = evt.target.value;
-  evt.taget.value = null;
+  evt.target.value = null;
 };
 
 const NextQuestion = () => {
